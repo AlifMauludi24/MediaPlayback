@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package com.example.android.classicalmusicquiz;
+package com.example.android.classicalmuiscquiz;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -37,6 +37,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.android.classicalmusicquiz.R;
 import com.google.android.exoplayer2.DefaultLoadControl;
 import com.google.android.exoplayer2.ExoPlaybackException;
 import com.google.android.exoplayer2.ExoPlayer;
@@ -243,7 +244,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
 
     /**
      * Initialize ExoPlayer.
-     *
      * @param mediaUri The URI of the sample to play.
      */
     private void initializePlayer(Uri mediaUri) {
@@ -386,7 +386,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
      * Method that is called when the ExoPlayer state changes. Used to update the MediaSession
      * PlayBackState to keep in sync.
      * PlayBackState to keep in sync, and post the media notification.
-     *
      * @param playWhenReady true if ExoPlayer is playing, false if it's paused.
      * @param playbackState int describing the state of ExoPlayer. Can be STATE_READY, STATE_IDLE,
      *                      STATE_BUFFERING, or STATE_ENDED.
