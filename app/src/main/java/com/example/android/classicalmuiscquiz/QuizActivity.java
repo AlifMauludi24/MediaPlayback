@@ -242,6 +242,7 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
+
     /**
      * Initialize ExoPlayer.
      * @param mediaUri The URI of the sample to play.
@@ -444,7 +445,7 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
 
         @Override
         public void onSkipToPrevious() {
-            mExoPlayer.seekTo(0); //hehe
+            mExoPlayer.seekTo(0);
         }
     }
 }
