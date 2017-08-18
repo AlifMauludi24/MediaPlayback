@@ -20,6 +20,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 
+import com.example.android.classicalmusicquiz.R;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
